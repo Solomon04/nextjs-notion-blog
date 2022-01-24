@@ -32,7 +32,7 @@ const Home = ({posts}: InferGetStaticPropsType<typeof getStaticProps>) => {
                 <main className="max-w-5xl mx-auto relative">
                     <div className="h-full pt-4 pb-16 mx-auto">
                         <div className="flex items-center justify-center">
-                            <h1 className="font-extrabold text-4xl text-black">Blog</h1>
+                            <h1 className="font-extrabold text-4xl text-black">Notion + NextJS Sample Blog</h1>
                         </div>
                         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
                             {posts.map((post: BlogPost) => (
